@@ -369,8 +369,8 @@ a {
     justify-content: center;
     background-color: #020909;
     color: silver;
-    padding-top: 5rem;
-    height: 100vh;
+    padding-block: 5rem;
+    /* height: 150vh;    */
 }
 
 .contact .container h2 {
@@ -382,7 +382,7 @@ a {
 
 .contact .contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around   ;
     margin-top: 6rem;
     width: 80vw;
 }
@@ -434,6 +434,13 @@ a {
     background-color: #020909;
     color: silver;
     font-size: 1.5rem;
+}
+
+.contact .contacts .contact-message .contact-message-form .btn {
+    background-color: #020909;
+    border-width: 3px;
+    font-size: 1.1rem;
+    padding: 0.6rem;
 }
 
 .contact .contacts .contact-direct {
